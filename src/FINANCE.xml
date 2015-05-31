@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<finance>
+    <player number="1" name="豪哥" amount="0"/>
+    <player number="2" name="2哥" amount="0"/>
+    <player number="3" name="大保健" amount="0"/>
+    <player number="4" name="涛哥" amount="0"/>
+    <player number="5" name="曹五" amount="0"/>
+    <player number="6" name="吴经理" amount="0"/>
+    <player number="7" name="海波" amount="0"/>
+    <player number="8" name="建华" amount="0"/>
+    <player number="9" name="叉哥" amount="0"/>
+</finance>

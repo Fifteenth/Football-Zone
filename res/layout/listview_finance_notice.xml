@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:minHeight="28dp"
+	android:background="@layout/listviewstyle_finance">
+    
+
+    <!-- two parts -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        <!-- 1. -->
+        <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="horizontal">
+		    <ImageView
+		        android:id="@+id/img"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+		
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal">
+		
+		        <TextView
+		            android:id="@+id/title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="#ff000000"
+		            android:textSize="22sp" 
+		            android:text="@string/button_deduction"
+		            android:paddingLeft="30dp"
+		            android:gravity="left"/>
+		        
+		    </LinearLayout>
+		    
+	    </RelativeLayout>
+    </LinearLayout>
+    
+</RelativeLayout>

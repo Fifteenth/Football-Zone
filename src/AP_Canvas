@@ -1,0 +1,9 @@
+//
+private Path mPath1 = new Path();
+
+mPath1.reset();
+mPath1.moveTo(touchX , touchY);
+mPath1.lineTo((float) (touchX - mPathSpacing * 1), touchY);
+mPath1.reset();
+
+canvas.drawPath(mPath1, mPaint);

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.club"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.af.activity.NavigationActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.af.activity.TacticalActivity"  
+            android:screenOrientation="portrait"
+            android:theme="@color/transparent"/>
+        
+        <activity android:name="com.af.activity.TacticalSettingActivity"  
+            android:screenOrientation="portrait"
+            android:theme="@color/transparent"/>
+        
+        <activity android:name="com.af.activity.ManagementAboutActivity"  
+            android:screenOrientation="portrait"/>
+        
+        <activity android:name="com.af.activity.ManagementActivity"  
+            android:screenOrientation="portrait"/>
+        
+    	<activity android:name="com.af.activity.FormationActivity" 
+    	    android:theme="@android:style/Theme.Dialog"/>
+
+    	<activity android:name="com.af.activity.IntroductionActivity"  
+            android:screenOrientation="portrait"/>
+    	
+    	<activity android:name="com.af.activity.TeamActivity"  
+            android:screenOrientation="portrait"/>
+    	
+    	<activity android:name="com.af.activity.FinanceActivity"  
+            android:screenOrientation="portrait"/>
+    	
+    	<activity android:name="com.af.activity.MatchesActivity"  
+            android:screenOrientation="portrait"/>
+    	
+    	<activity android:name="com.af.activity.FinanceRecordActivity"  
+            android:screenOrientation="portrait"/>
+    	
+    	<activity android:name="com.af.activity.FinanceNoticeActivity"  
+            android:screenOrientation="portrait"/>
+    	
+    	<activity android:name="com.af.activity.MatchesMatchDetailActivity"  
+            android:screenOrientation="portrait"/>
+    	
+    	<activity android:name="com.af.activity.SystemSettingActivity"  
+            android:screenOrientation="portrait"/>
+    	
+    </application>
+    
+    
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	
+	
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> 
+    
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<PlayerTOs>
+    <PlayerTO Name="豪哥" Number="26" Position="CB" />
+    <PlayerTO Name="叉哥" Number="6" Position="SB" />
+    <PlayerTO Name="海波" Number="7" Position="CF" />
+    <PlayerTO Name="二哥" Number="11" Position="CF" />
+    <PlayerTO Name="建华" Number="28" Position="SB" />
+    <PlayerTO Name="曹五" Number="15" Position="DM" />
+    <PlayerTO Name="涛哥" Number="14" Position="CF" />
+    <PlayerTO Name="大保健" Number="13" Position="CB" />
+    <PlayerTO Name="吴经理" Number="16" Position="SB" />
+    <PlayerTO Name="老梅" Number="18" Position="SS" />
+    <PlayerTO Name="钱总" Number="4" Position="DM" />
+    <PlayerTO Name="超哥" Number="21" Position="CF" />
+    <PlayerTO Name="江澜" Number="29" Position="SB" />
+    <PlayerTO Name="周峰" Number="13" Position="SB" />
+</PlayerTOs>

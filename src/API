@@ -1,0 +1,47 @@
+// BitmapUtil
+if(type.equals(ConstantVariable.BITMAP_TYPE_ROUND)){
+    return BitmapUtil.toRoundBitmap(bitmap,BitmapUtil.TYPE_ROUND);
+}else{
+	return BitmapUtil.createFramedPhoto(bitmap, 10, 10);//放入Bitmap数组数组
+}
+
+// toast
+/*
+	toast = Toast.makeText(context,
+	    "分辨率:" + viewWidth +"*" + viewHeight + "\n" +
+		"x:" + currentPointX + "\n" +
+		"y:" + currentPointY, Toast.LENGTH_LONG);
+	toast.setGravity(Gravity.CENTER, 0, 0);
+	toast.show();
+*/
+
+
+// Set
+HashSet<String> setSaveNum = new HashSet<String>();
+for(int i=0;i<list.size();i++){
+
+	// saveNumberList
+	String num = list.get(i).getSaveNum();
+	setSaveNum.add(num);
+	
+	// fileList--Set TacticalFileTO Attribute
+	TacticalFileTO tacticalFileTO = fileList.get(Integer.valueOf(num));
+	tacticalFileTO.setSaveNum(num);
+	tacticalFileTO.setFormation(list.get(i).getFormation());
+	tacticalFileTO.setDescribtion(list.get(i).getDescribtion());
+	tacticalFileTO.setDatetime(list.get(i).getDatetime());
+	
+}
+saveNumberList = new ArrayList<String>();
+saveNumberList.addAll(setSaveNum);
+
+
+-----------------------------
+//定义一个矩形			
+RectF rf1 = new RectF(x - 4 , y - 4, x + pointSize + 4, y + pointSize + 4);
+//画圆
+canvas.drawOval(rf1, paint);
+
+RectF rf2 = new RectF(x - 6 , y - 6, x + pointSize + 6, y + pointSize + 6);
+//画圆
+canvas.drawOval(rf2, paint);

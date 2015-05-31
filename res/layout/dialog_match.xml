@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+    <!-- 轮次 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/module_matches_textview_round" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_round"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:hint="" />
+    </LinearLayout>
+
+    <!-- 比分 -->
+
+    <LinearLayout
+        android:id="@+id/linearyoutDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/module_matches_textview_score" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_score"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:hint="" />
+    </LinearLayout>
+
+    <!-- 对手 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/module_matches_textview_competitor" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_competitor"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:hint="" />
+    </LinearLayout>
+
+    <!-- 日期 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/module_matches_textview_competitionDate"
+         	/>
+
+        <EditText
+            android:id="@+id/showdate"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/pickdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_date_date" />
+    </LinearLayout>
+
+    <!-- 时间 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:singleLine="true"
+            android:text="@string/module_matches_textview_competitionTime"
+            />
+
+        <EditText
+            android:id="@+id/showtime"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/picktime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_date_time" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_confirm_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_comfirm" />
+    </RelativeLayout>
+
+</LinearLayout>

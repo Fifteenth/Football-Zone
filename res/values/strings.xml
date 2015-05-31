@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">足球俱乐部</string>
+    <string name="ai">球     队     阵     容 </string>
+    <string name="pvp">战     术     设     置 </string>
+    <string name="about">软    件    说     明</string>
+    <string name="about_cotent">\t\t\t\t JAVA足球俱乐部  \n\n  2014</string>
+    
+    <string name="formation_cn">选择阵型</string>
+
+    <drawable name="clubColor">#9ACD32</drawable>
+    
+    
+    <!-- Tactical -->
+    <string name="module_tactical_menu_start">开始</string>
+    <string name="module_tactical_menu_pause">暂停</string>
+    <string name="module_tactical_menu_stop">结束</string>
+    <string name="module_tactical_menu_select_formation">选择阵型</string>
+    <string name="module_tactical_menu_tactical_display">战术演练</string>
+    <string name="module_tactical_menu_save_formation">设为阵型</string>
+    <string name="module_tactical_menu_save_record">保存记录</string>
+    
+    <string name="module_tactical_setting_display_competitor">显示对手</string>
+    
+    <!-- Finance -->
+    <string name="module_finance">财务管理</string>
+    <string name="module_finance_record">财务记录</string>
+    <string name="module_finance_notice">财务通知</string>
+    
+    <!-- Matches -->
+    <string name="module_matches">赛事信息</string>
+    <string name="module_matches_textview_round">轮次: </string>
+    <string name="module_matches_textview_score">比分: </string>
+    <string name="module_matches_textview_competitor">对手: </string>
+    <string name="module_matches_textview_competitionDate">日期: </string>
+    <string name="module_matches_textview_competitionTime">时间: </string>
+    
+    <!-- Team -->
+    <string name="module_team_textview_number">号码: </string>
+    <string name="module_team_textview_position">位置: </string>
+    <string name="module_team_textview_name">姓名: </string>
+    <string name="module_team_checkbox_is_caption">设为队长 </string>
+    
+    <!-- tactical -->
+    <string name="module_tactical_editText_formtion">阵型</string>
+    <string name="module_tactical_editText_description">描述</string>
+    
+    <!-- system -->
+    <string name="module_system_button_update">刷新</string>
+    <string name="module_system_textview_data_league">联赛数据</string>
+    <string name="module_system_textview_data_team">球队数据</string>
+    <string name="module_system_textview_data_finance">财务数据</string>
+    
+    <!--  -->
+    <string name="module_management">球队管理</string>
+    <string name="module_team">球队阵容</string>
+    <string name="module_matches_match_detail">比赛详情</string>
+    
+    <!-- button -->
+    <string name="button_payment">缴费</string>
+    <string name="button_deduction">扣费</string>
+    <string name="button_record">记录</string>
+    <string name="button_confirm">确认</string>
+    <string name="button_match_add">添加比赛</string>
+    
+    <string name="button_match_del">删除</string>
+    
+    
+    <!-- Edit hint -->
+    <string name="edit_hint_number">请输入数字！</string>
+    <string name="edit_hint_description">费用描述!</string>
+    
+    
+    <string name="footballclub">\t\t\t\tJAVA \n 足球俱乐部</string>
+    
+    <string name="club_establish">2014.1</string>
+    <string name="matches_season">2014~2015</string>
+
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@+drawable/bg_matches_match_detail"
+    android:orientation="vertical">
+    
+    
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/black"
+	        android:textSize="16sp" 
+	        android:paddingLeft="20dp"
+	        android:gravity="left"
+	        android:text="@string/module_matches_match_detail"
+	        />
+        
+	    
+	    <!-- 1. -->
+	    <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    
+		    android:layout_weight="1"
+		    >
+		    
+	        
+	        <RelativeLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_gravity="bottom"
+	        	>
+	        	
+	            <TextView
+	                android:id="@+id/textview_competitor"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="@color/crimson"
+		            android:textSize="22sp" 
+		            android:layout_gravity="right"
+		            android:layout_centerInParent="true"
+	            />
+	        </RelativeLayout>
+	        
+	        
+	        <RelativeLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_gravity="bottom"
+	        	>
+	        	
+	            <TextView
+	                android:id="@+id/textview_date_time"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="@color/crimson"
+		            android:textSize="16sp" 
+		            android:layout_gravity="right"
+		            android:layout_alignParentRight="true"
+		            android:layout_marginRight="10dp"
+	            />
+	        </RelativeLayout>
+	        
+	    </LinearLayout>
+	    
+	    
+	    <!-- 2. -->
+	    <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    
+		    android:layout_weight="4"
+		    >
+
+	        <RelativeLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_gravity="bottom"
+	        	>
+		        
+				
+	            <Button
+		            android:layout_width="wrap_content"
+		            android:layout_height="34dp"
+		            android:textColor="@color/black"
+		            android:textSize="14sp" 
+		            android:layout_gravity="right"
+		            android:layout_alignParentLeft="true"
+		            android:layout_marginLeft="20dp"
+		            android:text="比赛进球"
+		            />
+	            
+	            <!-- listview -->
+	            <ListView
+			        android:id="@+id/listview_goal"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:cacheColorHint="#00000000"
+			        android:dividerHeight="0dip"
+			        android:layout_marginTop="30dip"
+			        android:layout_marginBottom="40dip"
+			     	android:divider="#00000000"
+			     	>
+			    </ListView>
+	            
+	        </RelativeLayout>
+	    </LinearLayout>
+	    
+	    
+	    <!-- 3. -->
+	    <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    
+		    android:layout_weight="2"
+		    >
+
+	        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_gravity="bottom"
+	        	>
+	            
+	            <Button
+		            android:layout_width="wrap_content"
+		            android:layout_height="34dp"
+		            android:textColor="@color/black"
+		            android:textSize="14sp" 
+		            android:layout_gravity="left"
+		            android:layout_marginLeft="20dp"
+		            android:text="比赛名单"
+		            />
+	            
+	            
+		        <TextView
+		            android:id="@+id/textview_competition_list"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="@color/black"
+		            android:textSize="14sp" 
+		            android:layout_gravity="left"
+		            android:layout_marginLeft="10dp"
+		            />
+		        
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    
+	    
+	
+</LinearLayout>

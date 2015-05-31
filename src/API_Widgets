@@ -1,0 +1,25 @@
+LinearLayout
+	android:layout_weight="1"--权重
+	android:padding="10dp"--间距
+
+TextView
+	android:paddingLeft="20dp"
+	android:paddingRight="60dp"
+	----文字相对组件来说，会把组件长度撑开
+	
+	
+<Button
+    android:id="@+id/system_setting_button_update"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"								<!-- 组件在父容器中居中-->
+    android:textSize="12sp"
+    android:text="@string/module_system_button_update"
+    />
+    
+
+button.setOnClickListener(new View.OnClickListener() {
+		@Override
+		public void onClick(View v) {
+		}
+	});

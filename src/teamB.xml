@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<players>
+    <member number="00" role="coach">
+        <name>00</name>
+        <position>Coach</position>
+        <description>00</description>
+    </member>
+    <member number="07" role="player">
+        <name>07</name>
+        <position>LSMF</position>
+        <description>07</description>
+    </member>
+    <member number="03" role="player">
+        <name>03</name>
+        <position>LSB</position>
+        <description>03</description>
+    </member>
+    <member number="11" role="player">
+        <name>11</name>
+        <position>RSMF</position>
+        <description>11</description>
+    </member>
+    <member number="09" role="player">
+        <name>09</name>
+        <position>CF</position>
+        <description>09</description>
+    </member>
+    <member number="05" role="player">
+        <name>05</name>
+        <position>DMF</position>
+        <description>05</description>
+    </member>
+    <member number="01" role="player">
+        <name>01</name>
+        <position>GK</position>
+        <description>01</description>
+    </member>
+    <member number="04" role="player">
+        <name>04</name>
+        <position>CB</position>
+        <description>04</description>
+    </member>
+    <member number="02" role="player">
+        <name>02</name>
+        <position>RSB</position>
+        <description>02</description>
+    </member>
+</players>

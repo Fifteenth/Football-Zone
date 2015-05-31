@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:minHeight="28dp"
+	android:background="@layout/listviewstyle_finance">
+    
+
+    <!-- two parts -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        <!-- 1. -->
+        <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="horizontal">
+		    <ImageView
+		        android:id="@+id/img"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        />
+		
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_marginLeft="10dp">
+		
+		        <TextView
+		            android:id="@+id/text"
+		            android:layout_width="90dp"
+		            android:layout_height="wrap_content"
+		            android:textColor="#ff000000"
+		            android:textSize="22sp" 
+		            android:paddingLeft="20dp"
+		            android:gravity="left"/>
+		        
+		        <TextView
+		            android:id="@+id/title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="#ff000000"
+		            android:textSize="22sp" 
+		            android:text="@string/button_deduction"
+		            android:paddingLeft="10dp"
+		            android:gravity="left"/>
+		        
+		    </LinearLayout>
+		    
+		    <Button
+		        android:id="@+id/button_down"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="12sp"  
+		        android:paddingLeft="30dp"
+		        android:layout_alignParentRight="true"/>
+	    </RelativeLayout>
+	    
+	    
+	    <!-- 2 -->
+		<LinearLayout
+		    android:id="@+id/linearyoutDown"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="horizontal"
+	        android:background="@layout/listviewstyle_finance2">
+	        
+		    <Button
+		        android:id="@+id/button_payment"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_marginLeft="10sp"
+		        android:textSize="12sp"  
+		        android:background="@drawable/button_finance_payment"/>
+	    
+		    <Button
+		        android:id="@+id/button_deduction"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:textSize="12sp"  
+		        android:background="@drawable/button_finance_deduction"/>
+		    
+		    <Button
+		        android:id="@+id/button_costRecord"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_marginRight="10sp"
+		        android:textSize="12sp"  
+		        android:background="@drawable/button_finance_record"/>
+		    
+		    <Button
+		        android:id="@+id/button_cost_export"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_marginRight="10sp"
+		        android:textSize="12sp"  
+		        android:background="@drawable/button_finance_export"/>
+		    
+		    <Button
+		        android:id="@+id/button_notice"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_marginRight="10sp"
+		        android:textSize="12sp"  
+		        android:background="@drawable/button_finance_notice"/>
+		 </LinearLayout>
+		 
+    </LinearLayout>
+    
+    
+	<!-- 
+		RelativeLayout:android:
+			layout_alignParentLeft="true";
+			android:layout_centerInParent="true";
+			android:layout_alignParentRight="true" 
+		-->
+		
+</RelativeLayout>
